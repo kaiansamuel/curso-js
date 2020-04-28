@@ -11,11 +11,13 @@
        function mostra(frase) {
            document.write(frase + "<br>")
        }
-       var anoDeCopa = 1930;
-            while(anoDeCopa <= 2100) {
+         var anoDeCopa = prompt("Informe o ano inicial");
+         var anolimite = prompt("Qual o ano limite?");
+
+            while(anoDeCopa <= anolimite) {
                 mostra(anoDeCopa +  " tem copa!");
                 anoDeCopa = anoDeCopa + 4;
-            }
+         }
         mostra("Ufa! Esses foram os anos de copas do mundo!")    
    </script> 
 </body>
